@@ -1,0 +1,30 @@
+body{
+  font-size: 25px;
+}
+.justify{
+  text-align: justify;
+}
+.name-color{
+  color: yellowgreen
+}
+section{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img{
+  width: 130%;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(yellowgreen, green);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.banner {
+  width: 113%;
+}
