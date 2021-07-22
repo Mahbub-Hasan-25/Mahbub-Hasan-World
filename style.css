@@ -1,5 +1,6 @@
 body{
   font-size: 25px;
+  margin: 0;
 }
 .justify{
   text-align: justify;
@@ -9,6 +10,7 @@ body{
 }
 section{
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width{
   width: 50%;
@@ -25,6 +27,17 @@ section{
   padding: 10px 40px;
   border-radius: 10px;
 }
-.banner {
-  width: 113%;
+.top-banner{
+  background-image: url(left-top-banner.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+.half-width-2nd{
+  width: 50%;
+}
+.half-width-2nd img{
+  width: 120%;
+}
+#padding{
+  padding-left: 15%;
 }
